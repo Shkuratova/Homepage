@@ -1,0 +1,39 @@
+h1{
+    color:#2a2a2a;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+body{
+    background-color: #b3aea2;
+}
+span.bold{
+    font-weight: bold;
+}
+.first{
+    font-size: 50px;
+    color:#2a2a2a;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    text-align: center;
+}
+.img{
+    float:left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.down{
+    transform: translateY(-50px);
+}
+.coll{
+    padding: 50px 50px;
+    text-align: center;
+}
+.card{
+    width: 1000px;
+    height: 550px;
+    padding-bottom: 100px;
+    horiz-align: center;
+}
+.card:hover {
+    transform:  scale(1.25);
+}
+
+
