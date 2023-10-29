@@ -8,13 +8,39 @@ body{
 span.bold{
     font-weight: bold;
 }
+.list {
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: #292929;
+    font-size: 25px;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+.list > a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color:#B5B0A9;
+    text-decoration: none !important;
+}
+.list > a:not(:last-child) {
+    margin-right: 25px;
+}
+.list > a:hover{
+    color: white;
+}
 .first{
+    display: block;
     font-size: 80px;
     color:#292929;
     font-family: Impact, Charcoal, sans-serif;
     text-align: center;
 }
 .img{
+    width:500px;
+    height:300px;
     float:left;
     padding-left: 10px;
     padding-bottom: 10px;
