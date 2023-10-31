@@ -1,3 +1,15 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: black;
+}
+::-webkit-scrollbar-track{
+    background: #ECE5DE;
+}
+html{
+    scroll-behavior: smooth;
+}
 h1{
     color:#292929;
     font-family: Impact, Charcoal, sans-serif;
@@ -10,13 +22,14 @@ span.bold{
 }
 .list {
     display: block;
-    width: 100%;
     height: 80px;
+    width: 100%;
     background-color: #292929;
-    font-size: 25px;
+    font-size: 23px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-style:inherit;
     padding: 0 10px;
     box-sizing: border-box;
-
 }
 .list > a {
     display: inline-block;
@@ -45,12 +58,10 @@ span.bold{
     padding-left: 10px;
     padding-bottom: 10px;
 }
-.down{
-    transform: translateY(-50px);
-}
+
 .coll{
     position:relative;
-    top:80px;
+    top:90px;
     text-align: center;
 }
 .card{
